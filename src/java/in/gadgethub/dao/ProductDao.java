@@ -24,7 +24,7 @@ public interface ProductDao {
 	public String updateProductWithoutImage(String prevProductId, ProductPojo updatedProduct);
 	public double getProductPrice(String prodId);
 
-	public Boolean sellNProduct(String prodId, int n);
+	public boolean sellNProduct(String prodId, int n);
 	public List<String> getAllProductsType();
 
 	public byte[] getImage(String prodId);
